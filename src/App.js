@@ -1,24 +1,27 @@
+import React from 'react';
+import { StepsProvider } from './StepsContext';
+import Step1 from './Step1';
+import Step2 from './Step2';
+import Step3 from './Step3';
+import Step4 from './Step4';
+import Step5 from './Step5';
+import Step6 from './Step6';
+import Step7 from './Step7';
+import ProgressHeader from './ProgressHeader';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <StepsProvider>
+      <Step1 />
+      <Step2 />
+      <Step3 />
+      <Step4 />
+      <Step5 />
+      <Step6 />
+      <Step7 />
+    </StepsProvider>
   );
 }
 
