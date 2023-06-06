@@ -18,13 +18,13 @@ return(
     {step !== 1 && (
         <button class="m-2 btn btn-secondary btn-sm" onClick={() => setStep(step - 1)}>
             <ArrowLeftCircleFill class="m-2" />
-            Previous Step
+            Previous Step &nbsp;
         </button>
     )}
     
     {step !== 7 && (
         <button class="m-2 btn btn-success btn-sm" onClick={() => setStep(step + 1)}>
-            Next Step
+             &nbsp; Next Step
             <ArrowRightCircleFill class="m-2" />
         </button>
     )}
