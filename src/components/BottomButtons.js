@@ -1,10 +1,10 @@
 import React, { useContext } from 'react';
 import StepsContext from '../StepsContext';
 import {Utils} from '../componentFunctions';
-// import { ArrowRight } from 'react-bootstrap-icons';
+
 import { ArrowLeftCircleFill } from 'react-bootstrap-icons';
 import { ArrowRightCircleFill } from 'react-bootstrap-icons';
-{/* <i class="bi bi-arrow-left-circle-fill"></i> */}
+// https://icons.getbootstrap.com/
 
 // import ProgressHeader from '../ProgressHeader';
 // import LeftColumn from '../LeftColumn';
