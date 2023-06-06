@@ -3,6 +3,7 @@ import StepsContext from './StepsContext';
 import {Utils} from './componentFunctions';
 import ProgressHeader from './ProgressHeader';
 import LeftColumn from './LeftColumn';
+import BottomButtons from './components/BottomButtons';
 
 
 function Step1() {
@@ -24,7 +25,9 @@ function Step1() {
               <p>
                 <input type="text" value={name} onChange={handleChange} placeholder="Enter your name" />
               </p>
-              <button class="btn btn-success" onClick={() => Utils.handleStepButtonClick(setStep, step+1)}>Next Step</button>
+              <div>
+              <BottomButtons />
+              </div>
             </div>
           </div>
         </div>
