@@ -15,7 +15,8 @@ function Step5() {
         <div class="d-flex flex-nowrap">
         <LeftColumn />
           <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
-          <h1>This is Step 5</h1>
+          <h1>This is Step {step}</h1>
+          congratulations, you got a BLANK thing
           <p>Hello, {name}!</p>
           <BottomButtons />
           </div>

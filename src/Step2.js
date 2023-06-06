@@ -16,7 +16,8 @@ function Step2() {
           <div class="d-flex flex-nowrap">
           <LeftColumn />
             <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
-              <h1>This is Step 2</h1>
+              <h1>This is Step {step}</h1>
+              (verify) - enter your phone number and we will verify with an SMS
               <p>welcome to the <strong>{userRegion}</strong> region</p>
              <BottomButtons />
             </div>

@@ -16,8 +16,10 @@ function Step7() {
         <div class="d-flex flex-nowrap">
         <LeftColumn />
           <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
-          <h1>This is Step 7</h1>
+          <h1>This is Step {step}</h1>
           <p>Hello, {name}!</p>
+          how do I find more? <br />
+          another tab to show participants/locations<br />
           <BottomButtons />
           </div>
         </div>
