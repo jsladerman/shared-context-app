@@ -19,6 +19,7 @@ function Step5() {
           <h1>This is Step {step}</h1>
           congratulations, you got a BLANK thing<br />
           (show the thing in a 3d viewer)
+          <img width="190" src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=190' />
           <p>Hello, {name}!</p>
           <BottomButtons />
           </div>
