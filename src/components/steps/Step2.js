@@ -7,7 +7,12 @@ import BottomButtons from '../BottomButtons';
 
 
 function Step2() {
-  const { step, setStep, userRegion } = useContext(StepsContext);
+  const { step, setStep, name, setName, userRegion } = useContext(StepsContext);
+
+
+  const handleChange = (event) => {
+    setName(event.target.value);
+  };
 
   return (
     <div>
@@ -18,7 +23,10 @@ function Step2() {
           <LeftColumn />
             <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
               <h1>This is Step {step}</h1>
-              (verify) - enter your phone number and we will verify with an SMS
+              (verifyMessage) - enter your phone number and we will verify with an SMS
+              <p>
+                <input type="text" value={name} onChange={handleChange} placeholder="Enter your phone number" />
+              </p>
               <p>welcome to the <strong>{userRegion}</strong> region</p>
              <BottomButtons />
             </div>

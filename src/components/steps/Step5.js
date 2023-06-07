@@ -17,7 +17,8 @@ function Step5() {
         <LeftColumn />
           <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
           <h1>This is Step {step}</h1>
-          congratulations, you got a BLANK thing
+          congratulations, you got a BLANK thing<br />
+          (show the thing in a 3d viewer)
           <p>Hello, {name}!</p>
           <BottomButtons />
           </div>

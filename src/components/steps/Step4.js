@@ -19,6 +19,7 @@ function Step4() {
           <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
           <h1>This is Step {step}</h1>
           (decide which token- not seen by user)<br/>
+          (include 8th wall or similiar)<br/>
           open your phone and look around - floating AR thing!<br/>
 	          -- user taps to capture - then next step
           <p>Hello, {name}!</p>

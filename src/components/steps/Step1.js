@@ -7,12 +7,8 @@ import BottomButtons from '../BottomButtons';
 
 
 function Step1() {
-  const { step, setStep, name, setName } = useContext(StepsContext);
-
-  const handleChange = (event) => {
-    setName(event.target.value);
-  };
-
+  const { step, setStep, userRegion } = useContext(StepsContext);
+  
   return (
     <div>
       {step === 1 && (
@@ -22,10 +18,7 @@ function Step1() {
             <LeftColumn />
             <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-light flex-fill">
               <h1>This is Step { step }</h1>
-              (about) welcome, this is what this is and you are a great winner
-              <p>
-                <input type="text" value={name} onChange={handleChange} placeholder="Enter your name" />
-              </p>
+              (about_data) welcome, this is what this is and you have an opportunity to capture a limited edition token
               <div>
               <BottomButtons />
               </div>
