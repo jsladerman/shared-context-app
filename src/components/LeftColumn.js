@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
-import StepsContext from './StepsContext';
-import {Utils} from './componentFunctions';
+import StepsContext from '../StepsContext';
+import {Utils} from '../functions/componentFunctions';
 
 
 
@@ -14,6 +14,7 @@ function LeftColumn() {
     return (
         <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style={{
             width:300,
+            height:400,
             backgroundImage: "url(" + "./Assets/headerBG.jpg" + ")",
             }}> this is imported column
         </div>

@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import StepsContext from './StepsContext';
+import StepsContext from '../StepsContext';
 
 function ProgressHeader() {
   const { step, setStep, name, setName } = useContext(StepsContext);

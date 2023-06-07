@@ -1,8 +1,9 @@
 import React, { useContext } from 'react';
-import StepsContext from './StepsContext';
-import ProgressHeader from './ProgressHeader';
-import LeftColumn from './LeftColumn';
-import BottomButtons from './components/BottomButtons';
+import StepsContext from '../../StepsContext';
+import {Utils} from '../../functions/componentFunctions';
+import ProgressHeader from '../ProgressHeader';
+import LeftColumn from '../LeftColumn';
+import BottomButtons from '../BottomButtons';
 
 
 function Step2() {

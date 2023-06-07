@@ -1,13 +1,13 @@
 import React from 'react';
 import { StepsProvider } from './StepsContext';
-import Step1 from './Step1';
-import Step2 from './Step2';
-import Step3 from './Step3';
-import Step4 from './Step4';
-import Step5 from './Step5';
-import Step6 from './Step6';
-import Step7 from './Step7';
-import ProgressHeader from './ProgressHeader';
+import Step1 from './components/steps/Step1';
+import Step2 from './components/steps/Step2';
+import Step3 from './components/steps/Step3';
+import Step4 from './components/steps/Step4';
+import Step5 from './components/steps/Step5';
+import Step6 from './components/steps/Step6';
+import Step7 from './components/steps/Step7';
+import ProgressHeader from './components/ProgressHeader';
 import logo from './logo.svg';
 import './App.css';
 

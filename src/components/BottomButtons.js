@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import StepsContext from '../StepsContext';
-import {Utils} from '../componentFunctions';
+import {Utils} from '../functions/componentFunctions';
 
 import { ArrowLeftCircleFill } from 'react-bootstrap-icons';
 import { ArrowRightCircleFill } from 'react-bootstrap-icons';
