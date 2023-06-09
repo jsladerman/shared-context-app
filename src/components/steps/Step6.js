@@ -31,14 +31,14 @@ function Step6() {
           <p>Hello, {name}!</p>
           <div class="row">
             <div class="col-6 border bg-light">
-              <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+              <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
               <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
               </button>
             </div>
             <div class="col-6 border bg-light">
-              <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+              <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
             <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
@@ -48,14 +48,14 @@ function Step6() {
           <div class="row">
             <div class="col-6 border bg-light">
 
-            <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+            <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
               <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
               </button>
             </div>
             <div class="col-6 border bg-light">
-            <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+            <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
             <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
@@ -64,14 +64,14 @@ function Step6() {
           </div>
           <div class="row">
             <div class="col-6 border bg-light">
-            <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+            <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
               <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
               </button>
             </div>
             <div class="col-6 border bg-light">
-            <img src='https://images.pexels.com/photos/8442358/pexels-photo-8442358.jpeg?auto=compress&cs=tinysrgb&w=60' />
+            <img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' />
             <button class="m-2 btn btn-info btn-sm" onClick={() => setStep(step + 1)}>
                 &nbsp; Mint to ETH
                 <Safe class="m-2" />
