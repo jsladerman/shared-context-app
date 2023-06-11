@@ -18,6 +18,7 @@ import './App.css';
 const App = () => {
   const [APP_DATA, set_APP_DATA] = useState(null);
   const [data, setData] = useState(null);
+  
 
   useEffect(() => {
     axios.get('/APP_DATA/app_info.json')
@@ -30,7 +31,6 @@ const App = () => {
 
 
   return (
-    <Loader/>
     <StepsProvider>
       <Step1 />
       <Step2 />
