@@ -1,0 +1,158 @@
+{
+    "campaign": {
+        "title": "Sample Campaign",
+        "campaign_url" : "https://www.smapleCampaignUrl.com",
+        "campaign_chain" : "none",
+        "description": "This is a sample campaign",
+        "start_date": "2023-07-01",
+        "end_date": "2023-07-31",
+        "main_image": "https://example.com/campaign_main_image.png",
+        "wallet_logo": "https://example.com/wallet_logo.png",
+        "background_image": "https://example.com/background_image.png",
+        "requirements": {
+            "age": "18+",
+            "location": "Global",
+            "language": "English",
+            "other": "Must have a valid email address"
+        },
+        "organization": {
+            "title": "Sample Organization",
+            "description": "This is a sample organization",
+            "url": "https://example.com",
+            "image": "https://example.com/organization_image.png",
+            "bg_image": "https://example.com/organization_bg_image.png",
+            "TOS_url": "https://example.com/terms_of_service.html"
+        }
+    },
+    "steps": [
+        {
+            "title": "Step 1",
+            "main_data": "Main data for Step 1",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image1.png",
+            "left_explainer_data": "Explainer data for Step 1",
+            "left_explainer_image": "explainer_image1.png"
+        },
+        {
+            "title": "Step 2",
+            "main_data": "Main data for Step 2",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image2.png",
+            "left_explainer_data": "Explainer data for Step 2",
+            "left_explainer_image": "explainer_image2.png"
+        },
+        {
+            "title": "Step 3",
+            "main_data": "Main data for Step 3",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image3.png",
+            "left_explainer_data": "Explainer data for Step 3",
+            "left_explainer_image": "explainer_image3.png"
+        },
+        {
+            "title": "Step 4",
+            "main_data": "Main data for Step 4",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image4.png",
+            "left_explainer_data": "Explainer data for Step 4",
+            "left_explainer_image": "explainer_image4.png"
+        },
+        {
+            "title": "Step 5",
+            "main_data": "Main data for Step 5",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image5.png",
+            "left_explainer_data": "Explainer data for Step 5",
+            "left_explainer_image": "explainer_image5.png"
+        },
+        {
+            "title": "Step 6",
+            "main_data": "Main data for Step 6",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image6.png",
+            "left_explainer_data": "Explainer data for Step 6",
+            "left_explainer_image": "explainer_image6.png"
+        },
+        {
+            "title": "Step 7",
+            "main_data": "Main data for Step 7",
+            "button_next": "Next",
+            "button_previous": "Previous",
+            "button_previous_icon": "prev_icon.png",
+            "button_next_icon": "next_icon.png",
+            "main_data_image": "main_data_image7.png",
+            "left_explainer_data": "Explainer data for Step 7",
+            "left_explainer_image": "explainer_image7.png"
+        }
+    ],
+    "token_options": [
+        {
+            "title": "Token 1",
+            "description": "This is the description for Token 1",
+            "asset_url": "https://example.com/token1.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm1.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg1.png",
+            "token_bg": "https://example.com/token1_bg.png",
+            "rarity": "Common",
+            "number_of_tokens": 1000
+        },
+        {
+            "title": "Token 2",
+            "description": "This is the description for Token 2",
+            "asset_url": "https://example.com/token2.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm2.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg2.png",
+            "token_bg": "https://example.com/token2_bg.png",
+            "rarity": "Rare",
+            "number_of_tokens": 500
+        },
+        {
+            "title": "Token 3",
+            "description": "This is the description for Token 3",
+            "asset_url": "https://example.com/token3.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm3.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_3rg1.png",
+            "token_bg": "https://example.com/token3_bg.png",
+            "rarity": "Epic",
+            "number_of_tokens": 250
+        },
+        {
+            "title": "Token 4",
+            "description": "This is the description for Token 4",
+            "asset_url": "https://example.com/token4.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm4.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg4.png",
+            "token_bg": "https://example.com/token4_bg.png",
+            "rarity": "Legendary",
+            "number_of_tokens": 100
+        },
+        {
+            "title": "Token 5",
+            "description": "This is the description for Token 5",
+            "asset_url": "https://example.com/token5.png",
+            "asset_thumbnail_sm": "https://example.com/token_thumb_sm5.png",
+            "asset_thumbnail_lrg": "https://example.com/token_thumb_lrg5.png",
+            "token_bg": "https://example.com/token5_bg.png",
+            "rarity": "Mythic",
+            "number_of_tokens": 50
+        }
+    ]
+}

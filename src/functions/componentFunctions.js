@@ -6,11 +6,13 @@ export const Utils = {
     stepContext(newStep);
     },
   
+  //OLD
   // https://marketsplash.com/tutorials/react-js/how-to-fetch-data-from-json-file-in-react-js/
   fetchJSONData: (JSONURL) => {
       fetch(JSONURL)
         .then(response => response.json())
         .then(data => {
+          console.log("DATA_FETCHED")
           console.log(data);
           return data;
         })
