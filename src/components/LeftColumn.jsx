@@ -15,7 +15,7 @@ function LeftColumn() {
         <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style={{
             width:300,
             height:400,
-            backgroundImage: "url(" + "./Assets/headerBG.jpg" + ")",
+            backgroundImage: "url(" + "./assets/headerBG.jpg" + ")",
             }}> this is imported column
         </div>
     );
