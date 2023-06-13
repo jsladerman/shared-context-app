@@ -19,7 +19,7 @@ import { Safe2 } from 'react-bootstrap-icons';
 function MainAppView() {
     const { step, setStep, userRegion } = useContext(StepsContext);
 
-    //return
+    //retur1`
     // https://react-bootstrap.netlify.app/docs/layout/grid
     return (
         <div id="MainAppView_holder" class="MainAppView_holder">
