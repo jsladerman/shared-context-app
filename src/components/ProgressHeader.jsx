@@ -11,7 +11,7 @@ function ProgressHeader() {
     <div class="d-flex"
     style={{
       height:60,
-      backgroundImage: "url(" + "./Assets/headerBG.jpg" + ")",
+      backgroundImage: "url(" + "./assets/headerBG.jpg" + ")",
       backgroundSize: "cover",
       backgroundRepeat: "no-repeat"
     }}>
