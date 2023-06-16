@@ -6,10 +6,23 @@ import { Button } from 'react-bootstrap';
 
 
 function LoaderScreen() {
+    console.log("LOADER:::: Loader rendering...");
+
     const { step, setStep, name, setName, APP_DATA } = useContext(StepsContext);
     const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(true);
-  
+    let headerText = "Loading...";
+    let buttonLoaderClass = "invisible"
+    
+    if(APP_DATA['application_data']['data_loaded'] === "finally"){
+        console.log("DATA IS FINALLY LOADED");
+        headerText = "Experience Loaded"
+        buttonLoaderClass = "visible"
+    }
+    else {
+        console.log("LOADER:::: nothing loaded now");
+    }
+
     function handleShow(breakpoint) {
       setFullscreen(breakpoint);
       setShow(true);
@@ -23,11 +36,11 @@ function LoaderScreen() {
             <Modal.Title>Welcome!</Modal.Title>
             </Modal.Header>
             <Modal.Body>
-                <div>Loading....</div>
+                <div>{ headerText }</div>
                 <div class="d-flex align-items-center">
                     <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
                 </div>
-                <Button variant="primary" onClick={handleClose}>
+                <Button className={buttonLoaderClass} variant="primary" onClick={handleClose}>
                     Let's Go!
                 </Button>
             </Modal.Body>

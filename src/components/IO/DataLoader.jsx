@@ -9,7 +9,7 @@ function DataLoader() {
     function parseAppData(incomingData) {
       
       let totalSteps = incomingData.steps.length;
-      console.log("totalSteps  = ", totalSteps);
+      console.log("DATA_LOADER::: data loaded  = ", totalSteps);
       set_APP_DATA(incomingData);
     }
     

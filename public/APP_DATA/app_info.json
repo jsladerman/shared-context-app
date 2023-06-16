@@ -156,6 +156,7 @@
         }
     ],
     "application_data": {
-        "totalSteps": 7
+        "totalSteps": 7,
+        "data_loaded": "finally"
     }
 }
