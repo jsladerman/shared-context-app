@@ -13,7 +13,7 @@ import { WalletFill } from 'react-bootstrap-icons';
 
 
 function BottomButtons() {
-    const { step, setStep, userRegion } = useContext(StepsContext);
+    const { step, setStep, userRegion, APP_DATA} = useContext(StepsContext);
 
 return(
     <div>

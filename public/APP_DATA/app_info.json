@@ -26,8 +26,8 @@
     },
     "steps": [
         {
-            "title": "Step 1",
-            "main_data": "Main data for Step 1",
+            "title": "Loaded: Step 1",
+            "main_data": "(about) welcome, this is what this is and you have an opportunity to capture a limited edition token",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -37,8 +37,8 @@
             "left_explainer_image": "explainer_image1.png"
         },
         {
-            "title": "Step 2",
-            "main_data": "Main data for Step 2",
+            "title": "Verify",
+            "main_data": "(verifyMessage) - enter your phone number and we will verify with an SMS<p><input type=\"text\" value=\"Enter your Phone Number\" onChange={handleChange} placeholder=\"Enter your phone number\" /></p>",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -48,8 +48,8 @@
             "left_explainer_image": "explainer_image2.png"
         },
         {
-            "title": "Step 3",
-            "main_data": "Main data for Step 3",
+            "title": "Verify",
+            "main_data": "<h1>This is Step {step}</h1>(verify enter) enter the verification code you received<p><input type=\"text\" value={name} onChange={handleChange} placeholder=\"Enter the verification code\" /></p>",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -59,8 +59,8 @@
             "left_explainer_image": "explainer_image3.png"
         },
         {
-            "title": "Step 4",
-            "main_data": "Main data for Step 4",
+            "title": "Look Around",
+            "main_data": "(decide which token- not seen by user)<br/>(include 8th wall or similiar)<br/>open your phone and look around - floating AR thing!<br/>-- user taps to capture - then next step",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -70,8 +70,8 @@
             "left_explainer_image": "explainer_image4.png"
         },
         {
-            "title": "Step 5",
-            "main_data": "Main data for Step 5",
+            "title": "Found!",
+            "main_data": "<h1>This is Step {step}</h1>congratulations, you got a BLANK thing<br />(show the thing in a 3d viewer)<br /><img width=\"190\" src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?w=190' />",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -81,8 +81,8 @@
             "left_explainer_image": "explainer_image5.png"
         },
         {
-            "title": "Step 6",
-            "main_data": "Main data for Step 6",
+            "title": "Mint?",
+            "main_data": "show 'wallet' - this thing is now in your wallet<br />-- there is a 'MINT' option<br />-- user connects their actual wallet<br />-- estimate for mint provided - this will be 10 dollars!!<br />-- if the user has enough cash, a mint confirmation is displayed<br /><div class=\"row\"><div class=\"col-6 border bg-light\"><img src='https://images.pexels.com/photos/437345/pexels-photo-437345.jpeg?auto=compress&cs=tinysrgb&w=60' /><button class=\"m-2 btn btn-info btn-sm\">&nbsp; Mint to ETH<Safe class=\"m-2\" /></button></div>",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -92,8 +92,8 @@
             "left_explainer_image": "explainer_image6.png"
         },
         {
-            "title": "Step 7",
-            "main_data": "Main data for Step 7",
+            "title": "What's Next?",
+            "main_data": "how do I find more? <br />another tab to show participants/locations<br />",
             "button_next": "Next",
             "button_previous": "Previous",
             "button_previous_icon": "prev_icon.png",
@@ -154,5 +154,8 @@
             "rarity": "Mythic",
             "number_of_tokens": 50
         }
-    ]
+    ],
+    "application_data": {
+        "totalSteps": 7
+    }
 }
