@@ -12,12 +12,14 @@ function LoaderScreen() {
     const [fullscreen, setFullscreen] = useState(true);
     const [show, setShow] = useState(true);
     let headerText = "Loading...";
-    let buttonLoaderClass = "invisible"
+    let loaderVisibilityClass = "invisible";
+    let loaderINvisibilityClass = "visible";
     
     if(APP_DATA['application_data']['data_loaded'] === "finally"){
         console.log("DATA IS FINALLY LOADED");
         headerText = "Experience Loaded"
-        buttonLoaderClass = "visible"
+        loaderINvisibilityClass = "invisible"
+        loaderVisibilityClass = "visible";
     }
     else {
         console.log("LOADER:::: nothing loaded now");
@@ -38,9 +40,10 @@ function LoaderScreen() {
             <Modal.Body>
                 <div>{ headerText }</div>
                 <div class="d-flex align-items-center">
-                    <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+                    <div className={loaderINvisibilityClass} class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
                 </div>
-                <Button className={buttonLoaderClass} variant="primary" onClick={handleClose}>
+                <br />
+                <Button className={loaderVisibilityClass} variant="primary" onClick={handleClose}>
                     Let's Go!
                 </Button>
             </Modal.Body>

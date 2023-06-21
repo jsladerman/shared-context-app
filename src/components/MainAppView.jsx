@@ -86,6 +86,7 @@ function MainAppView() {
                         <Tab eventKey="navigator" title={<span>Navigator <CompassFill class="m-2" /> </span>} />
                         <Tab eventKey="community" title={<span>Community <ChatLeftHeartFill class="m-2" /> </span>} />
                         <Tab eventKey="updates" title={<span>Updates <BellFill class="m-2" /> </span>} />
+                        <Tab eventKey="redeem" title={<span>Redeem <CashCoin class="m-2" /> </span>} />
                         </Tabs>
                     </Col>
                     <Col lg={1}>
